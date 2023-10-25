@@ -5,6 +5,7 @@ export default {
 
   output: {
     file: 'bundle.css', 
+    format: 'es',
   },
 
   plugins: [
