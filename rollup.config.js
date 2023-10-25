@@ -1,14 +1,14 @@
 import css from 'rollup-plugin-css-only';
 
 export default {
-  input: 'index.css',
+  input: './estilos/index.css',
 
   output: {
     file: 'bundle.css', 
-    format: 'es',
+    format: 'es'
   },
 
   plugins: [
-    css({ output: 'bundle.css' }),
+    [css()],
   ],
 };
